@@ -20,7 +20,7 @@ def scrape_article_links(urls):
     return article_links
 
 def main():
-    urls = ["https://www.example.com/landing1", "https://www.example.com/landing2"]
+    urls = ["https://www.sei.org/publications/", "https://dgap.org/en/publications"]
     article_links = scrape_article_links(urls)
 
     # Store the results in a text file
